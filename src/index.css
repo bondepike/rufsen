@@ -1,0 +1,131 @@
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 200%;
+}
+
+h1 {
+    font-family: "ro-brush-std";
+    color: #5F24FF;
+    font-size: 250px;
+    margin: 0;
+    padding: 10px;
+}
+h2 {
+    color: #202020;
+}
+
+h6 {
+    font-family: "tenez";
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #0B0B0B;
+}
+
+p {
+    font-family: "tenez";
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+    margin-top: -15px;
+    padding-left: 10px;
+    color: #2C2C2C;
+}
+
+.Header-Container-Subtitle {
+    color: #5F24FF;
+}
+
+.Plante-Item {
+    margin-bottom: 10px;
+    border: solid;
+    border-color: #5F24FF;
+    border-width: 3px;
+    max-width: 100%;
+}
+
+.Plante-Item-Info {
+    padding: 20px;
+}
+
+.Plante-Item-Picture {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Header-Container-Subtitles {
+    padding: 5%;
+    max-width: 80vw;
+}
+
+.Header-Video {
+    display: block;
+    margin: auto;
+    max-width: 90vw;
+}
+
+.praha-image {
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+    max-width: 700px;
+    padding-bottom: 10%;
+}
+
+
+@media all and (max-width: 700px) {
+    h1 {
+        font-size: 40vw;
+    }
+    .Header-Video {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        padding-bottom: 3%;
+    }
+
+}
+
+@media all and (min-width: 700px) {
+
+    .Plante-Container {
+        display: flex;
+        justify-content: end;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .Plante-Item {
+        margin: 10px;
+        max-width: 350px;
+    }
+
+    .Header-Container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .Header-Container-Subtitles {
+        padding: 5%;
+        max-width: 50vw;
+    }
+
+
+
+}
+
+.margin{
+    margin: 10px;
+}
